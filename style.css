@@ -1,0 +1,122 @@
+/*
+
+selector {
+    propiedad: valor !important;
+}
+
+*/
+
+#presentacion {
+    min-height: 88vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+
+
+
+
+.proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-1 {
+    background-image: url('google.png');
+}
+
+#proyecto-2 {
+    background-image: url('google.png');
+}
+
+.text-shadow-1 {
+    text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
+
+.bg-brand {
+    background-color: blueviolet;
+}
+
+.text-brand {
+    color: blueviolet;
+}
+
+#equipo{
+    border-radius: 50%;
+    width: 200px;
+}
+
+#li{
+    font-size: 24px;
+}
+
+#habilidades {
+    justify-content: space-around;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+ a{
+    color: #202124 ;
+    text-decoration: none;
+    font-size: 14px;
+    }
+
+    .contenedor-principal {
+        display: flex;
+        width: calc(100% - 200px); /* Ajustar para el margen derecho de 100px */
+        margin-right: 100px; /* Distancia del contenedor derecho al lado derecho de la pantalla */
+        padding-top: 100px;
+    }
+    
+    .contenedor-izquierda {
+        text-align: center;
+        margin-left: 100px; /* Distancia del contenedor izquierdo a la pantalla */
+        flex: 0 0 auto; /* No permitir que crezca más allá de su contenido */
+    }
+    
+    .contenedor-izquierda img {
+        display: block;
+        margin: 0 auto; /* Centramos la imagen horizontalmente */
+    }
+    
+    .contenedor-izquierda div {
+        text-align: left; /* Texto dentro del div de la izquierda alineado a la izquierda */
+    }
+    
+    .contenedor-derecha {
+        text-align: justify;
+        flex: 1; /* Ocupa el resto del espacio disponible */
+        margin-left: 20px; /* Espacio entre los dos contenedores */
+    }
+       
+                /* Estilos adicionales */
+                body, html {
+                    height: 100%;
+                    margin: 0;
+                  }
+              
+                  .wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                  }
+              
+                  .content {
+                    flex: 1;
+                  }
+              
+                  footer {
+                    background: #f8f9fa;
+                  }
+        
+
+
