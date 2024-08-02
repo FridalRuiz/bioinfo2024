@@ -11,14 +11,12 @@ selector {
     display: flex;
     justify-content: start;
     align-items: center;
-    background-image: url(assets/bg.jpg);
+    background-image: url(assets/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:contain;
+    background-size: contain;
+  
 }
-
-
-
 
 
 .proyecto {
@@ -47,12 +45,24 @@ selector {
     color: blueviolet;
 }
 
-#equipo{
+#espacio {
+    justify-content: space-evenly;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+#insti {
+    width: 200px;
+    height: 100;
+
+}
+
+#equipo {
     border-radius: 50%;
     width: 200px;
 }
 
-#li{
+#li {
     font-size: 24px;
 }
 
@@ -64,59 +74,93 @@ selector {
     text-align: justify;
 }
 
- a{
-    color: #202124 ;
+a {
+    color: #202124;
     text-decoration: none;
     font-size: 14px;
-    }
+}
 
-    .contenedor-principal {
-        display: flex;
-        width: calc(100% - 200px); /* Ajustar para el margen derecho de 100px */
-        margin-right: 100px; /* Distancia del contenedor derecho al lado derecho de la pantalla */
-        padding-top: 100px;
-    }
-    
-    .contenedor-izquierda {
-        text-align: center;
-        margin-left: 100px; /* Distancia del contenedor izquierdo a la pantalla */
-        flex: 0 0 auto; /* No permitir que crezca más allá de su contenido */
-    }
-    
-    .contenedor-izquierda img {
-        display: block;
-        margin: 0 auto; /* Centramos la imagen horizontalmente */
-    }
-    
-    .contenedor-izquierda div {
-        text-align: left; /* Texto dentro del div de la izquierda alineado a la izquierda */
-    }
-    
-    .contenedor-derecha {
-        text-align: justify;
-        flex: 1; /* Ocupa el resto del espacio disponible */
-        margin-left: 20px; /* Espacio entre los dos contenedores */
-    }
-       
-                /* Estilos adicionales */
-                body, html {
-                    height: 100%;
-                    margin: 0;
-                  }
-              
-                  .wrapper {
-                    display: flex;
-                    flex-direction: column;
-                    min-height: 100vh;
-                  }
-              
-                  .content {
-                    flex: 1;
-                  }
-              
-                  footer {
-                    background: #f8f9fa;
-                  }
-        
+.contenedor-principal {
+    display: flex;
+    width: calc(100% - 200px);
+    /* Ajustar para el margen derecho de 100px */
+    margin-right: 100px;
+    /* Distancia del contenedor derecho al lado derecho de la pantalla */
+    padding-top: 100px;
+}
+
+.contenedor-izquierda {
+    text-align: center;
+    margin-left: 100px;
+    /* Distancia del contenedor izquierdo a la pantalla */
+    flex: 0 0 auto;
+    /* No permitir que crezca más allá de su contenido */
+}
+
+.contenedor-izquierda img {
+    display: block;
+    margin: 0 auto;
+    /* Centramos la imagen horizontalmente */
+}
+
+.contenedor-izquierda div {
+    text-align: left;
+    /* Texto dentro del div de la izquierda alineado a la izquierda */
+}
+
+.contenedor-derecha {
+    text-align: justify;
+    flex: 1;
+    /* Ocupa el resto del espacio disponible */
+    margin-left: 20px;
+    /* Espacio entre los dos contenedores */
+}
+
+/* Estilos adicionales */
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    background: #f8f9fa;
+}
 
 
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button-container a {
+    text-decoration: none;
+    color: #202124;
+    background-color: #0d6efdaf;
+    font-size: larger;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #0d6efdaf
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #ffffff;
+}
