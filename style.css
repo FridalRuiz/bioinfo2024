@@ -154,7 +154,7 @@ footer {
 .button {
     padding: 10px 20px;
     background-color: white;
-    color: #0d6efdaf
+    color: #0d6efdaf;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -164,3 +164,82 @@ footer {
 .button:hover {
     background-color: #ffffff;
 }
+
+
+
+
+
+.pagos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-cont {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bottom-cont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.container1, .container2, .container3 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    flex: 1 1 40%; /* Para hacerlos proporcionales y del mismo tamaño */
+    max-width: 300px; /* Límite máximo de ancho */
+}
+
+.container1 img, .container2 img, .container3 img {
+    width: 40%;
+    height: 80px; /* Altura fija para todas las imágenes */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.container1, .container2, .container3 h2 {
+    margin-bottom: 10px;
+}
+
+.container1, .container2, .container3 ul {
+    list-style-type: none;
+}
+
+.container1 ul, .container2 ul{
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding-left: 0;
+}
+
+.container3 ul{
+    list-style-type: decimal; /* Quita los puntos de la lista */
+    padding-left: 0;
+}
+
+.container1 li, .container2 li, .container3 li {
+    margin-bottom: 5px;
+}
+
+hr.divider {
+    border: 0;
+    height: 2px; /* Altura de la línea */
+    background-color: #ddd; /* Color de la línea */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px 0 20px 0; /* Ajusta la distancia superior e inferior */
+}
+
+
+
+
